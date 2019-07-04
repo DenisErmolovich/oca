@@ -7,6 +7,6 @@ public class Example {
 			x += 1;
 		}
 		String message = x < 5 ? "Greater than" : "Less then";
-		System.out.println(message + "," + x);
+		System.out.println(message + "," + x); //Less then,5
 	}
 }
