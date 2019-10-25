@@ -6,7 +6,7 @@ public class FinallyAndException {
 			try {
 				throw new RuntimeException("Try block");
 			} catch(RuntimeException e) {
-				throw new RuntimeException("Catch block"); // Java swallow this exception!
+				throw new RuntimeException("Catch block"); // Java swallows this exception!
 			} finally {
 				throw new Exception("Finally block");
 			}
